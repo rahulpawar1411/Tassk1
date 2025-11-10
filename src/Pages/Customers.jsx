@@ -3,13 +3,13 @@ import React from "react";
 const Customers = () => {
   return (
     <div className="w-full h-full">
-      {/* Section Header */}
+
       <div className="flex flex-col items-center text-center pt-6 px-4">
         <h1 className="text-[#51504A] font-bold text-2xl sm:text-3xl md:text-4xl">
           Trusted by more than 2500+ Customers.
         </h1>
 
-        {/* Customer Logos */}
+
         <div className="flex flex-wrap justify-center items-center gap-6 mt-6 w-full max-w-4xl">
           <img
             className="w-20 sm:w-28 md:w-32 object-contain"
@@ -39,9 +39,9 @@ const Customers = () => {
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
+
       <div className="w-full flex flex-col md:flex-row p-5 md:p-10 gap-10 md:gap-16 mt-10">
-        {/* Left Content */}
+
         <div className="md:w-1/2">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold p-3 md:p-5 text-[#51504A]">
             Why Choose Us?
@@ -54,7 +54,7 @@ const Customers = () => {
             quality homes.
           </p>
 
-          {/* Quality */}
+
           <div className="mt-6">
             <h2 className="text-xl sm:text-2xl font-semibold px-3 md:px-5">
               Commitment to Quality
@@ -66,7 +66,6 @@ const Customers = () => {
             </p>
           </div>
 
-          {/* Innovation */}
           <div className="mt-6">
             <h2 className="text-xl sm:text-2xl font-semibold px-3 md:px-5">
               Innovation-Driven Approach
@@ -77,7 +76,7 @@ const Customers = () => {
             </p>
           </div>
 
-          {/* Pricing */}
+
           <div className="mt-6">
             <h2 className="text-xl sm:text-2xl font-semibold px-3 md:px-5">
               Competitive Pricing
@@ -90,7 +89,7 @@ const Customers = () => {
           </div>
         </div>
 
-        {/* Right Content (Video) */}
+
         <div className="md:w-1/2 flex justify-center items-center">
           <div className="w-full sm:w-4/5 aspect-video bg-black rounded-2xl overflow-hidden shadow-lg">
             <iframe

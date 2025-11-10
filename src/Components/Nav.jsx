@@ -5,7 +5,7 @@ const Nav = () => {
 
   return (
     <nav className="w-full flex justify-between items-center text-white px-6 py-4 mb-10 bg-transparent relative">
-      {/* Logo */}
+
       <div className="w-[120px] sm:w-[150px]">
         <img
           className="w-full h-full object-contain"
@@ -14,7 +14,7 @@ const Nav = () => {
         />
       </div>
 
-      {/* Desktop Menu */}
+    
       <div className="hidden md:flex items-center space-x-4">
         <a className="hover:border-2 border-white rounded-2xl px-3 py-1" href="#">Home</a>
         <a className="hover:border-2 border-white rounded-2xl px-3 py-1" href="#">About Us</a>
@@ -23,7 +23,7 @@ const Nav = () => {
         <a className="hover:border-2 border-white rounded-2xl px-3 py-1" href="#">Contact</a>
       </div>
 
-      {/* Mobile Hamburger */}
+
       <div className="md:hidden">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
@@ -41,14 +41,14 @@ const Nav = () => {
         </button>
       </div>
 
-      {/* Back Button (desktop only) */}
+   
       <div className="hidden md:block">
         <button className="transform transition-transform duration-200 hover:scale-110 cursor-pointer px-6 py-2 bg-white text-black rounded-3xl bg-clip-padding backdrop-blur-sm bg-opacity-10 border border-gray-100">
           Back
         </button>
       </div>
 
-      {/* Mobile Menu */}
+
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-black/90 backdrop-blur-sm flex flex-col items-center space-y-4 py-4 md:hidden z-50">
           <a onClick={() => setMenuOpen(false)} className="hover:text-gray-300" href="#">Home</a>
